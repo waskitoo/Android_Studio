@@ -9,7 +9,7 @@ import android.widget.Toast;
 import org.w3c.dom.Text;
 
 public class Main2Activity extends AppCompatActivity {
-
+    private int duit =65000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +19,7 @@ public class Main2Activity extends AppCompatActivity {
         String makanan = intent.getStringExtra(MainActivity.nama_makanan);
         String jumlah2 = intent.getStringExtra(MainActivity.jumlah1);
         String harga = intent.getStringExtra(MainActivity.harga);
-        String pesan = intent.getStringExtra(MainActivity.pesan);
+
         TextView warungTextview = (TextView) findViewById(R.id.warung);
         TextView makananTextview = (TextView) findViewById(R.id.namaMakanan);
         TextView jumlahTextview = (TextView) findViewById(R.id.jumlah);
@@ -28,7 +28,12 @@ public class Main2Activity extends AppCompatActivity {
         warungTextview.setText(warung);
         makananTextview.setText(makanan);
         jumlahTextview.setText(jumlah2);
+        if(duit > jumlahbenar){
+            Toast.makeText(getApplicationContext(), "Cie Punya duit", Toast.LENGTH_LONG).show();
+        }else{
+            Toast.makeText(getApplicationContext(), "Ra duwe duit pyee", Toast.LENGTH_LONG).show();
+        }
         hargaTextview.setText(Integer.toString(jumlahbenar));
-        Toast.makeText(getApplicationContext(), pesan, Toast.LENGTH_LONG).show();
+
     }
 }

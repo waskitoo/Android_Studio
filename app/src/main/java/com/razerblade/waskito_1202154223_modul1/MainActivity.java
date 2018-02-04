@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     public final static String nama_makanan ="nama_makanan";
     public final static String jumlah1 ="jumlah";
     public final static String harga ="harga";
-    public final static String pesan ="pesan";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra(nama_makanan,makanan);
                     intent.putExtra(jumlah1,jumlaha);
                     intent.putExtra(harga,"50000");
-                    intent.putExtra(pesan,"Kuat Dilakoni yen rakuat di tinggal NGOPI");
                     startActivity(intent);
                 }
             }
@@ -57,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra(nama_makanan,makanan);
                     intent.putExtra(jumlah1,jumlaha);
                     intent.putExtra(harga,"30000");
-                    intent.putExtra(pesan,"Kuat di tuku bos q");
                     startActivity(intent);
                 }
             }
