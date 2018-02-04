@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra(nama_makanan,makanan);
                     intent.putExtra(jumlah1,jumlaha);
                     intent.putExtra(harga,"30000");
-                    intent.putExtra(pesan,"Kuat Dilakoni yen rakuat di tinggal NGOPI");
+                    intent.putExtra(pesan,"Kuat di tuku bos q");
                     startActivity(intent);
                 }
             }
