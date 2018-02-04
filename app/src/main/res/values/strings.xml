@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">waskito_1202154223_Modul1</string>
+    <string name="jumlah">Jumah</string>
+    <string name="makan_malam">Makan Malam</string>
+    <string name="bareng_mantan">Bareng Mantan</string>
+    <string name="nama_makanan">Nama Makanan</string>
+    <string name="eatbus">Eatbus</string>
+    <string name="abnormaal">Abnormaal</string>
+    <string name="kosong"></string>>
+    <string name="menu">Menu</string>
+    <string name="nasi_udud">Nasi UDUD</string>
+    <string name="porsi">Porsi</string>
+    <string name="_2">2</string>
+    <string name="harga">Harga</string>
+    <string name="_100000">100000</string>
+</resources>
